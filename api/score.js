@@ -11,7 +11,6 @@
 // tried in this order until one answers. GROQ_MODEL (optional env) is tried first.
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const MODEL_CHAIN = [
-  'llama-3.3-70b-versatile',
   'openai/gpt-oss-120b',
   'llama-3.1-8b-instant'
 ];
